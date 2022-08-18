@@ -21,3 +21,7 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Publish NuGet packages (1/2 Pack)
+      run: dotnet pack --configuration Release
+    - name: Publish NuGet packages (2/2 Publish)
+      run: dotnet nuget push "bin/Release/TestNuGetPackage.0.1.0.nupkg" --source "github"
