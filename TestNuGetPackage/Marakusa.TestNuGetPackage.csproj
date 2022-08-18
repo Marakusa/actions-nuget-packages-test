@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>TestNuGetPackage</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Marakusa</Authors>
+    <Company>Marakusa</Company>
+    <PackageDescription>This package is a test NuGet package.</PackageDescription>
+    <RepositoryUrl>https://github.com/Marakusa/actions-nuget-packages-test</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
